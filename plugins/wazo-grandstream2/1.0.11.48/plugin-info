@@ -1,0 +1,41 @@
+{
+    "version": "0.11.1",
+    "description": "Plugin for Grandstream GXP2130/35/40/60/70 in version 1.0.11.48.",
+    "description_fr": "Greffon pour Grandstream GXP2130/35/40/60/70 en version 1.0.11.48.",
+    "vendor" : "Grandstream",
+    "vendor.url" : "http://www.grandstream.com",
+    "vendor.description" : "Grandstream Networks, Inc. is an award-winning designer and ISO 9001 certified manufacturer of next generation IP voice & video products for broadband networks. Grandstream’s products deliver superb sound and picture quality, rich telephony features, full compliance with industry standards, and broad interoperability with most service providers and 3rd party SIP based VoIP products.",
+    "vendor.official" : 0,
+    "capabilities": {
+        "Grandstream, GXP2130, 1.0.11.48": {
+            "sip.lines": 3,
+            "xivo.ha": 1,
+            "tel.funckeys": 8,
+            "xivo.tested": 0
+        },
+        "Grandstream, GXP2135, 1.0.11.48": {
+            "sip.lines": 4,
+            "xivo.ha": 1,
+            "tel.funckeys": 32,
+            "xivo.tested": 0
+        },
+        "Grandstream, GXP2140, 1.0.11.48": {
+            "sip.lines": 3,
+            "xivo.ha": 1,
+            "tel.funckeys": 20,
+            "xivo.tested": 0
+        },
+        "Grandstream, GXP2160, 1.0.11.48": {
+            "sip.lines": 6,
+            "xivo.ha" : 1,
+            "tel.funckeys" : 24,
+            "xivo.tested" : 0
+        },
+        "Grandstream, GXP2170, 1.0.11.48": {
+            "sip.lines": 6,
+            "xivo.ha" : 1,
+            "tel.funckeys" : 48,
+            "xivo.tested" : 0
+        }
+    }
+}
